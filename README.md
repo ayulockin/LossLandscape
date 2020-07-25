@@ -1,7 +1,9 @@
 # LossLandscape
 Explores the ideas presented in [Deep Ensembles: A Loss Landscape Perspective](https://arxiv.org/abs/1912.02757) by Stanislav Fort, Huiyi Hu, and Balaji Lakshminarayanan. 
 
-![](https://i.ibb.co/NrR8KFJ/Untitled.png)
+<div align="center">
+<img src="https://i.ibb.co/NrR8KFJ/Untitled.png"></img>
+</div>
 
 In the paper, the authors investigate the question - ***why deep ensembles work better than single deep neural networks?*** 
 
