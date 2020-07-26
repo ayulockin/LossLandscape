@@ -20,3 +20,6 @@ Huge to shoutout to **Yannic Kilcher** for making a stellar [explanation video o
 - `*_CIFAR10.ipynb`: Shows the training process with three different  architectures (SmallCNN, MediumCNN, and ResNet20v1) as per the paper (with minor modifications).
 - `*_Aug_Val_Acc_Ensembles.ipynb`: Investigates how accuracy can be represented as a function of ensemble size. 
 - `*_Function_Space_Similarity_MediumCNN.ipynb`: Investigates cosine similarity between weights collected from different snapshots and trajectories, prediction disagreement between different snapshots and trajectories, and presents tSNE visualizations of a how particular solution travels along the optimization landscape (not available for ResNet20v1). 
+
+## Model weights
+Available [here](https://github.com/ayulockin/LossLandscape/releases/tag/v0.1.0). 
