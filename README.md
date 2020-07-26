@@ -15,3 +15,8 @@ In their investigation the authors figure out:
 Along with these fascinating findings, they present a number of different things that are useful to understand the dynamics of deep neural networks in general. To know more about them check out [our report](https://app.wandb.ai/authors/loss-landscape/reports/Understanding-the-effectivity-of-ensembles-in-deep-learning-(tentative)--VmlldzoxODAxNjA). 
 
 Huge to shoutout to **Yannic Kilcher** for making a stellar [explanation video of the paper](https://www.youtube.com/watch?v=5IRlUVrEVL8). It helped us accelerating our experimentation process. 
+
+## About the notebooks
+- `*_CIFAR10.ipynb`: Shows the training process with three different  architectures (SmallCNN, MediumCNN, and ResNet20v1) as per the paper (with minor modifications).
+- `*_Aug_Val_Acc_Ensembles.ipynb`: Investigates how accuracy can be represented as a function of ensemble size. 
+- `*_Function_Space_Similarity_MediumCNN.ipynb`: Investigates cosine similarity between weights collected from different snapshots and trajectories, prediction disagreement between different snapshots and trajectories, and presents tSNE visualizations of a how particular solution travels along the optimization landscape (not available for ResNet20v1). 
