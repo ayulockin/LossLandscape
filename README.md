@@ -14,8 +14,6 @@ In their investigation the authors figure out:
 
 Along with these fascinating findings, they present a number of different things that are useful to understand the dynamics of deep neural networks in general. To know more about them check out [our report](https://app.wandb.ai/authors/loss-landscape/reports/Understanding-the-effectivity-of-ensembles-in-deep-learning-(tentative)--VmlldzoxODAxNjA). 
 
-Huge to shoutout to **Yannic Kilcher** for making a stellar [explanation video of the paper](https://www.youtube.com/watch?v=5IRlUVrEVL8). It helped us accelerating our experimentation process. 
-
 ## About the notebooks
 - `*_CIFAR10.ipynb`: Shows the training process with three different  architectures (SmallCNN, MediumCNN, and ResNet20v1) as per the paper (with minor modifications).
 - `*_Aug_Val_Acc_Ensembles.ipynb`: Investigates how accuracy can be represented as a function of ensemble size. 
@@ -23,3 +21,9 @@ Huge to shoutout to **Yannic Kilcher** for making a stellar [explanation video o
 
 ## Model weights
 Available [here](https://github.com/ayulockin/LossLandscape/releases/tag/v0.1.0). 
+
+## Acknowledgements
+
+Thanks to **Yannic Kilcher** for [his amazing explanation video](https://www.youtube.com/watch?v=5IRlUVrEVL8) of the paper which helped us pursue our experiments. 
+
+Thanks to **Balaji Lakshminarayanan** for providing feedback on the initial draft of the report and also for rectifying our mistake on the tSNE projections. 
