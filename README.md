@@ -12,7 +12,7 @@ In their investigation the authors figure out:
 * Different snapshots (i.e. model from epoch 1, model from epoch 2, and so on) of a same model exhibit functional similarity. Hence, their ensemble is **less likely** to explore the different modes of local minimas in the optimization space. 
 * Different solutions of a same model (i.e. trained with different random initializations each time) exhibit functional dissimilarity. Hence, their ensemble is **more likely** to explore the different modes of local minimas in the optimization space. 
 
-Along with these fascinating findings, they present a number of different things that are useful to understand the dynamics of deep neural networks in general. To know more about them check out [our report](https://app.wandb.ai/authors/loss-landscape/reports/Understanding-the-effectivity-of-ensembles-in-deep-learning-(tentative)--VmlldzoxODAxNjA). 
+Along with these fascinating findings, they present a number of different things that are useful to understand the dynamics of deep neural networks in general. To know more about them check out our report - [Understanding the Effectivity of Ensembles in Deep Learning](https://app.wandb.ai/authors/loss-landscape/reports/Understanding-the-effectivity-of-ensembles-in-deep-learning-(tentative)--VmlldzoxODAxNjA). 
 
 ## About the notebooks
 - `*_CIFAR10.ipynb`: Shows the training process with three different  architectures (SmallCNN, MediumCNN, and ResNet20v1) as per the paper (with minor modifications).
